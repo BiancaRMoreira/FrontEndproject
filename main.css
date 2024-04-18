@@ -138,7 +138,19 @@ th {
   height: auto;
   margin-right: 0px;
 }
+
 .logo-container {
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 1166px) {
+    .caixa-texto {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
 }
